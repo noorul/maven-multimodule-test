@@ -1,310 +1,310 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-      
-  
-  <modelVersion>4.0.0</modelVersion>
-      
-  
-  <groupId>com.noorul</groupId>
-      
-  
-  <artifactId>parent-project</artifactId>
-      
-  
-  <version>1.0-SNAPSHOT</version>
-      
-  
-  <packaging>pom</packaging>
-      
-  
-  <name>parent-project</name>
-      
-  
-  <description>A simple parent-project.</description>
-      
-  
-  <!-- FIXME change it to the project's website -->
-      
-  
-  <url>http://www.example.com</url>
-      
-  
-  <properties>
-            
-    
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-            
-    
-    <maven.compiler.source>1.7</maven.compiler.source>
-            
-    
-    <maven.compiler.target>1.7</maven.compiler.target>
-          
-  
-  </properties>
-      
-  
-  <dependencies>
-            
-    
-    <dependency>
-                  
-      
-      <groupId>junit</groupId>
-                  
-      
-      <artifactId>junit</artifactId>
-                  
-      
-      <version>3.8.1</version>
-                
-    
-    </dependency>
-          
-  
-  </dependencies>
-      
-  
-  <build>
-            
-    
-    <pluginManagement>
-            
-      <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
-                  
-      
-      <plugins>
-                        
-        
-        <plugin>
-                              
-          
-          <artifactId>maven-clean-plugin</artifactId>
-                              
-          
-          <version>3.1.0</version>
-                            
-        
-        </plugin>
-                        
-        
-        <plugin>
-                              
-          
-          <artifactId>maven-site-plugin</artifactId>
-                              
-          
-          <version>3.7.1</version>
-                            
-        
-        </plugin>
-                        
-        
-        <plugin>
-                              
-          
-          <artifactId>maven-project-info-reports-plugin</artifactId>
-                              
-          
-          <version>3.0.0</version>
-                            
-        
-        </plugin>
-                        
-        
-        <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
-                        
-        
-        <plugin>
-                              
-          
-          <artifactId>maven-resources-plugin</artifactId>
-                              
-          
-          <version>3.0.2</version>
-                            
-        
-        </plugin>
-                        
-        
-        <plugin>
-                              
-          
-          <artifactId>maven-compiler-plugin</artifactId>
-                              
-          
-          <version>3.8.0</version>
-                            
-        
-        </plugin>
-                        
-        
-        <plugin>
-                              
-          
-          <artifactId>maven-surefire-plugin</artifactId>
-                              
-          
-          <version>2.22.1</version>
-                            
-        
-        </plugin>
-                        
-        
-        <plugin>
-                              
-          
-          <artifactId>maven-jar-plugin</artifactId>
-                              
-          
-          <version>3.0.2</version>
-                            
-        
-        </plugin>
-                        
-        
-        <plugin>
-                              
-          
-          <artifactId>maven-install-plugin</artifactId>
-                              
-          
-          <version>2.5.2</version>
-                            
-        
-        </plugin>
-                        
-        
-        <plugin>
-                              
-          
-          <artifactId>maven-deploy-plugin</artifactId>
-                              
-          
-          <version>2.8.2</version>
-                            
-        
-        </plugin>
+
+
+    <modelVersion>4.0.0</modelVersion>
+
+
+    <groupId>com.noorul</groupId>
+
+
+    <artifactId>parent-project</artifactId>
+
+
+    <version>1.0-SNAPSHOT</version>
+
+
+    <packaging>pom</packaging>
+
+
+    <name>parent-project</name>
+
+
+    <description>A simple parent-project.</description>
+
+
+    <!-- FIXME change it to the project's website -->
+
+
+    <url>http://www.example.com</url>
+
+
+    <properties>
+
+
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+
+
+        <maven.compiler.source>1.7</maven.compiler.source>
+
+
+        <maven.compiler.target>1.7</maven.compiler.target>
+
+
+    </properties>
+
+
+    <dependencies>
+
+
+        <dependency>
+
+
+            <groupId>junit</groupId>
+
+
+            <artifactId>junit</artifactId>
+
+
+            <version>3.8.1</version>
+
+
+        </dependency>
+
+
+    </dependencies>
+
+
+    <build>
+
+
+        <pluginManagement>
+
+            <!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
+
+
+            <plugins>
+
+
+                <plugin>
+
+
+                    <artifactId>maven-clean-plugin</artifactId>
+
+
+                    <version>3.1.0</version>
+
+
+                </plugin>
+
+
+                <plugin>
+
+
+                    <artifactId>maven-site-plugin</artifactId>
+
+
+                    <version>3.7.1</version>
+
+
+                </plugin>
+
+
+                <plugin>
+
+
+                    <artifactId>maven-project-info-reports-plugin</artifactId>
+
+
+                    <version>3.0.0</version>
+
+
+                </plugin>
+
+
+                <!-- see http://maven.apache.org/ref/current/maven-core/default-bindings.html#Plugin_bindings_for_jar_packaging -->
+
+
+                <plugin>
+
+
+                    <artifactId>maven-resources-plugin</artifactId>
+
+
+                    <version>3.0.2</version>
+
+
+                </plugin>
+
+
+                <plugin>
+
+
+                    <artifactId>maven-compiler-plugin</artifactId>
+
+
+                    <version>3.8.0</version>
+
+
+                </plugin>
+
+
+                <plugin>
+
+
+                    <artifactId>maven-surefire-plugin</artifactId>
+
+
+                    <version>2.22.1</version>
+
+
+                </plugin>
+
+
+                <plugin>
+
+
+                    <artifactId>maven-jar-plugin</artifactId>
+
+
+                    <version>3.0.2</version>
+
+
+                </plugin>
+
+
+                <plugin>
+
+
+                    <artifactId>maven-install-plugin</artifactId>
+
+
+                    <version>2.5.2</version>
+
+
+                </plugin>
+
+
+                <plugin>
+
+
+                    <artifactId>maven-deploy-plugin</artifactId>
+
+
+                    <version>2.8.2</version>
+
+
+                </plugin>
+
+                <plugin>
+                    <groupId>com.github.spotbugs</groupId>
+                    <artifactId>spotbugs-maven-plugin</artifactId>
+                    <version>4.2.0</version>
+                    <dependencies>
+                        <!-- overwrite dependency on spotbugs if you want to specify the version of spotbugs -->
+                        <dependency>
+                            <groupId>com.github.spotbugs</groupId>
+                            <artifactId>spotbugs</artifactId>
+                            <version>4.2.3</version>
+                        </dependency>
+                    </dependencies>
+                </plugin>
+                <plugin>
+                    <groupId>org.apache.maven.plugins</groupId>
+                    <artifactId>maven-checkstyle-plugin</artifactId>
+                    <version>3.1.2</version>
+                    <dependencies>
+                        <dependency>
+                            <groupId>com.puppycrawl.tools</groupId>
+                            <artifactId>checkstyle</artifactId>
+                            <version>8.41.1</version>
+                        </dependency>
+                    </dependencies>
+                    <configuration>
+                        <consoleOutput>true</consoleOutput>
+                        <configLocation>checkstyle.xml</configLocation>
+                        <includeTestSourceDirectory>true</includeTestSourceDirectory>
+                    </configuration>
+                </plugin>
+                <plugin>
+                    <groupId>com.diffplug.spotless</groupId>
+                    <artifactId>spotless-maven-plugin</artifactId>
+                    <version>2.10.1</version>
+                    <configuration>
+                        <formats>
+                            <!-- you can define as many formats as you want, each is independent -->
+                            <format>
+                                <!-- define the files to apply to -->
+                                <includes>
+                                    <include>*.md</include>
+                                    <include>.gitignore</include>
+                                </includes>
+                                <!-- define the steps to apply to those files -->
+                                <trimTrailingWhitespace />
+                                <endWithNewline />
+                                <indent>
+                                    <spaces>true</spaces>
+                                    <spacesPerTab>4</spacesPerTab>
+                                </indent>
+                            </format>
+                            <format>
+                                <includes>
+                                    <include>**/*.xml</include>
+                                    <include>**/*.xsd</include>
+                                </includes>
+                                <excludes>
+                                    <exclude>**/target/**</exclude>
+                                </excludes>
+                                <eclipseWtp>
+                                    <type>XML</type> <!-- specify the WTP formatter type (XML, JS, ...) -->
+                                    <files> <!-- specify the configuration for the selected type -->
+                                        <file>xml.prefs</file>
+                                    </files>
+                                    <version>4.13.0</version> <!-- optional -->
+                                </eclipseWtp>
+                            </format>
+                        </formats>
+                        <!-- define a language-specific format -->
+                        <java>
+                            <!-- no need to specify files, inferred automatically, but you can if you want -->
+                            <!-- apply a specific flavor of google-java-format -->
+                            <googleJavaFormat>
+                                <version>1.8</version>
+                                <style>AOSP</style>
+                            </googleJavaFormat>
+                        </java>
+                    </configuration>
+                </plugin>
+
+
+            </plugins>
+
+
+        </pluginManagement>
+
+
+    </build>
+
+
+    <reporting>
+
+
+        <plugins>
+
 
             <plugin>
-                <groupId>com.github.spotbugs</groupId>
-                <artifactId>spotbugs-maven-plugin</artifactId>
-                <version>4.2.0</version>
-                <dependencies>
-                    <!-- overwrite dependency on spotbugs if you want to specify the version of spotbugs -->
-                    <dependency>
-                        <groupId>com.github.spotbugs</groupId>
-                        <artifactId>spotbugs</artifactId>
-                        <version>4.2.3</version>
-                    </dependency>
-                </dependencies>
+
+
+                <artifactId>maven-project-info-reports-plugin</artifactId>
+
+
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-checkstyle-plugin</artifactId>
-                <version>3.1.2</version>
-                <dependencies>
-                    <dependency>
-                        <groupId>com.puppycrawl.tools</groupId>
-                        <artifactId>checkstyle</artifactId>
-                        <version>8.41.1</version>
-                    </dependency>
-                </dependencies>
-                <configuration>
-                    <consoleOutput>true</consoleOutput>
-                    <configLocation>checkstyle.xml</configLocation>
-                    <includeTestSourceDirectory>true</includeTestSourceDirectory>
-                </configuration>
-            </plugin>
-            <plugin>
-                <groupId>com.diffplug.spotless</groupId>
-                <artifactId>spotless-maven-plugin</artifactId>
-                <version>2.10.1</version>
-                <configuration>
-                    <formats>
-                        <!-- you can define as many formats as you want, each is independent -->
-                        <format>
-                            <!-- define the files to apply to -->
-                            <includes>
-                                <include>*.md</include>
-                                <include>.gitignore</include>
-                            </includes>
-                            <!-- define the steps to apply to those files -->
-                            <trimTrailingWhitespace />
-                            <endWithNewline />
-                            <indent>
-                                <spaces>true</spaces>
-                                <spacesPerTab>4</spacesPerTab>
-                            </indent>
-                        </format>
-                        <format>
-                            <includes>
-                                <include>**/*.xml</include>
-                                <include>**/*.xsd</include>
-                            </includes>
-                            <excludes>
-                                <exclude>**/target/**</exclude>
-                            </excludes>
-                            <eclipseWtp>
-                                <type>XML</type> <!-- specify the WTP formatter type (XML, JS, ...) -->
-                                <files> <!-- specify the configuration for the selected type -->
-                                    <file>${basedir}/xml.prefs</file>
-                                </files>
-                                <version>4.13.0</version> <!-- optional -->
-                            </eclipseWtp>
-                        </format>
-                    </formats>
-                    <!-- define a language-specific format -->
-                    <java>
-                        <!-- no need to specify files, inferred automatically, but you can if you want -->
-                        <!-- apply a specific flavor of google-java-format -->
-                        <googleJavaFormat>
-                            <version>1.8</version>
-                            <style>AOSP</style>
-                        </googleJavaFormat>
-                    </java>
-                </configuration>
-            </plugin>
-        
-      
-      </plugins>
-                
-    
-    </pluginManagement>
-          
-  
-  </build>
-      
-  
-  <reporting>
-            
-    
-    <plugins>
-                  
-      
-      <plugin>
-                        
-        
-        <artifactId>maven-project-info-reports-plugin</artifactId>
-                      
-      
-      </plugin>
-                
-    
-    </plugins>
-          
-  
-  </reporting>
-    
-  
-  <modules>
-          
-    
-    <module>core</module>
-          
-    
-    <module>service</module>
-      
-  </modules>
-  
+
+
+        </plugins>
+
+
+    </reporting>
+
+
+    <modules>
+
+
+        <module>core</module>
+
+
+        <module>service</module>
+
+    </modules>
+
 </project>
